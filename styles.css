@@ -1,69 +1,39 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Courier New', Courier, monospace; /* Gives that hacker/techy look */
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color for contrast */
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
+.ascii-art {
+    color: #ff6600; /* Orange color for the ASCII art */
+    font-size: 18px;
+    line-height: 1.2; /* Adjusts the spacing between lines */
+    margin-bottom: 50px; /* Space between the ASCII art and the button */
 }
 
 .button {
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #007bff;
-    text-decoration: none;
-    border-radius: 4px;
-    text-align: center;
-    margin-top: 20px;
-    display: block;
-    width: 200px;
-    margin: 20px auto;
-}
-
-.person-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.person-box {
-    background: #e9e9e9;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 4px;
-    text-align: center;
-    width: 150px;
-}
-
-.person-box img {
-    max-width: 100px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.person-box h2 {
+    padding: 15px 30px;
     font-size: 18px;
-    color: #333;
+    color: #000;
+    background-color: #ff6600; /* Orange background for the button */
+    text-decoration: none;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions for hover effects */
 }
 
-.file-list ul {
-    list-style: none;
-    padding: 0;
-}
-
-.file-list li {
-    margin-bottom: 10px;
+.button:hover {
+    background-color: #cc5200; /* Darker orange on hover */
+    transform: scale(1.1); /* Slightly larger on hover */
 }
