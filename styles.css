@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full screen height */
+    text-align: center; /* Center text and elements horizontally */
 }
 
 .container {
@@ -26,7 +27,7 @@ body {
     display: inline-block;
     padding: 15px 30px;
     font-size: 18px;
-    color: #000;
+    color: #000; /* Black text color for the button */
     background-color: #ff6600; /* Orange background for the button */
     text-decoration: none;
     border-radius: 8px; /* Rounded corners */
