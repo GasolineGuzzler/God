@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     background: #fff;
     padding: 20px;
@@ -18,31 +18,52 @@ h1 {
     color: #333;
 }
 
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
+.button {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
     background-color: #007bff;
-    border: none;
+    text-decoration: none;
     border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-#pastelist h2 {
     text-align: center;
     margin-top: 20px;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.person-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.person-box {
+    background: #e9e9e9;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    text-align: center;
+    width: 150px;
+}
+
+.person-box img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.person-box h2 {
+    font-size: 18px;
     color: #333;
+}
+
+.file-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.file-list li {
+    margin-bottom: 10px;
 }
